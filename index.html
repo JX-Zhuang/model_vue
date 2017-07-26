@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>实现vue三个指令：v-model、v-click、v-bind</p>
+<p>实现vue双向绑定</p>
+<div id="app">
+    <form>
+        <input type="text" z-model="count" />
+        <button type="button" z-click="increment">increment</button>
+        <button type="button" z-click="alert('Hello world')">alert</button>
+    </form>
+    <p z-bind="count"></p>
+</div>
+<script src="zue.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
